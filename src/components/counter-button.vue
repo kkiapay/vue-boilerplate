@@ -9,5 +9,7 @@ const updateCount = () => {
 </script>
 
 <template>
-  <button @click="updateCount">{{ count }}</button>
+  <button class="text-white bg-cyan-400 rounded py-1 px-3" @click="updateCount">
+    {{ count }}
+  </button>
 </template>
